@@ -1,12 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 export default function Home() {
   return (
     <>
       <div className="">
-        <div className="text-[30px] md:text-[48px] h-[130px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
+        <div className="text-[30px] md:text-[48px] h-fit py-6 lg:py-8 flex items-center justify-center font-bold bg-[#00A17B] text-white relative">
           <h1 className="text-center px-[20px] ">
             Welcome to Red Fire <br className="block sm:hidden"></br> Systems
             Private Limited
           </h1>
+          <img src="/LOGO.jpg" alt="Logo" className="w-[40px] h-auto top-3 right-3 absolute  "></img>
         </div>
         <div className="px-[20px] md:px-[70px] ">
           <h2 className="text-[24px] md:text-[36px] text-[#00A17B] text-center mt-10 font-semibold">
@@ -221,10 +224,8 @@ export default function Home() {
               </p>
             </div>
             <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex gap-1 flex-col  font-semibold">
-              <p ><span className="font-bold">
-
-                Red Fire System PVT LTD
-              </span>
+              <p>
+                <span className="font-bold">RED FIRE SYSTEM PVT LTD</span>
                 <br></br>
                 STREET NO 3 BASAI ENCLAVE PART 2<br></br>
                 GURUGRAM HARYANA
