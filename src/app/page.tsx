@@ -220,9 +220,11 @@ export default function Home() {
                 SYSTEMS PRIVATE LIMITED
               </p>
             </div>
-            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex gap-4 flex-col  font-semibold">
-              <p className="font-bold">
+            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex gap-1 flex-col  font-semibold">
+              <p ><span className="font-bold">
+
                 Red Fire System PVT LTD
+              </span>
                 <br></br>
                 STREET NO 3 BASAI ENCLAVE PART 2<br></br>
                 GURUGRAM HARYANA
