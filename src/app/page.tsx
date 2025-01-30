@@ -2,14 +2,14 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className="text-[30px] md:text-[48px] h-[110px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
-          <h1 className="text-center px-[20px] ">Welcome to Red Fire Systems Private Limited</h1>
+        <div className="text-[30px] md:text-[48px] h-[130px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
+          <h1 className="text-center px-[20px] ">Welcome to Red Fire <br className="block sm:hidden"></br> Systems Private Limited</h1>
         </div>
         <div className="px-[20px] md:px-[70px] ">
           <h2 className="text-[24px] md:text-[36px] text-[#00A17B] text-center mt-10 font-semibold">
             Your Trusted Partner in Fire Safety & Engineering Solutions
           </h2>
-          <p className="text-[#00795D] mt-8 text-[18px] md:text-[24px] text-justify ">
+          <p className="text-[#00795D] mt-8 text-[18px] md:text-[24px]  ">
             At Red Fire Systems Private Limited, we are dedicated to ensuring
             safety through state-of-the-art fire protection and engineering
             solutions. Established in 2012, we have earned a strong reputation
@@ -17,7 +17,7 @@ export default function Home() {
             installations, and maintenance services that meet national and
             international safety standards.
           </p>
-          <p className="text-[#00795D] mt-8 text-[18px] md:text-[24px] text-justify">
+          <p className="text-[#00795D] mt-8 text-[18px] md:text-[24px]">
             Fire safety is a critical aspect of any infrastructure, whether
             industrial, commercial, or residential. Our mission is to provide
             advanced fire detection, suppression, and prevention systems that
@@ -33,20 +33,20 @@ export default function Home() {
             <h2 className="text-[20px] md:text-[40px] font-bold text-center">
               ABOUT US
             </h2>
-            <p className="mt-6 text-[18px] md:text-[28px] text-justify font-normal">
+            <p className="mt-6 text-[18px] md:text-[28px]  font-normal">
               As a leading name in the fire safety industry, Red Fire Systems
               Private Limited offers a comprehensive range of fire protection
               solutions designed to address the unique challenges of modern
               businesses and institutions.
             </p>
-            <p className="mt-6 text-[18px] md:text-[28px] text-justify font-normal">
+            <p className="mt-6 text-[18px] md:text-[28px]  font-normal">
               We specialize in the design, manufacturing, supply, installation,
               and maintenance of fire safety systems. Our expertise extends
               across multiple sectors, ensuring that our solutions are
               customized to meet the specific requirements of various
               industries.
             </p>
-            <p className="mt-6 text-[18px] md:text-[28px] text-justify font-normal">
+            <p className="mt-6 text-[18px] md:text-[28px]  font-normal">
               Our team is well-versed in fire safety compliance, regulatory
               standards, and emerging technologies, allowing us to deliver
               innovative and effective fire protection solutions. We believe in
@@ -193,35 +193,34 @@ export default function Home() {
             <h2 className="text-[20px] md:text-[40px] font-bold text-center  underline ">
               COMPANY INFO
             </h2>
-
-            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex justify-between md:flex-row flex-col  font-semibold">
-              <p className="">0124-220-0010</p>
-              <p className="">Info@redfiresystems.com</p>
-              <p className=""> Employee size 300-500</p>
-            </div>
             <div className="my-6 md:my-10">
-              <p className="mb-6 text-[16px] md:text-[24px]  font-normal text-justify">
+              <p className="mb-6 text-[16px] md:text-[24px]  font-normal ">
                 RED FIRE SYSTEMS PRIVATE LIMITED (CIN: U29253HR2012PTC046377) is
                 a Private company incorporated on 28 Dec 2012. It is classified
                 as Non-government company and is registered at Registrar of
                 Companies, Delhi.
               </p>
-              <p className="mb-6 text-[16px] md:text-[24px]  font-normal text-justify">
+              <p className="mb-6 text-[16px] md:text-[24px]  font-normal ">
                 FIRE SYSTEMS PRIVATE LIMITED&apos;s NIC code is 2925 (which is
                 part of its CIN). As per the NIC code, it is inolved in
                 Manufacture of machinery for food, beverage and tobacco
                 processing.
               </p>
-              <p className="mb-6 text-[16px] md:text-[24px]  font-normal text-justify">
+              <p className="mb-6 text-[16px] md:text-[24px]  font-normal ">
                 Directors of RED FIRE SYSTEMS PRIVATE LIMITED are AMIT KUMAR
                 BHARDWAJ, and SONIA SHARMA.{" "}
               </p>
-              <p className="mb-6 text-[16px] md:text-[24px]  font-normal text-justify">
+              <p className="mb-6 text-[16px] md:text-[24px]  font-normal ">
                 RED FIRE SYSTEMS PRIVATE LIMITED&apos;s Corporate Identification
                 Number (CIN) is U29253HR2012PTC046377 and its registration
                 number is 46377. Users may contact RED FIRE
                 SYSTEMS PRIVATE LIMITED
               </p>
+            </div>
+            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex justify-between md:flex-row flex-col  font-semibold">
+              <p className="">0124-220-0010</p>
+              <p className="">Info@redfiresystems.com</p>
+              <p className=""> Employee size 300-500</p>
             </div>
           </div>
         </div>
