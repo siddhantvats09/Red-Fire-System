@@ -3,7 +3,10 @@ export default function Home() {
     <>
       <div className="">
         <div className="text-[30px] md:text-[48px] h-[130px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
-          <h1 className="text-center px-[20px] ">Welcome to Red Fire <br className="block sm:hidden"></br> Systems Private Limited</h1>
+          <h1 className="text-center px-[20px] ">
+            Welcome to Red Fire <br className="block sm:hidden"></br> Systems
+            Private Limited
+          </h1>
         </div>
         <div className="px-[20px] md:px-[70px] ">
           <h2 className="text-[24px] md:text-[36px] text-[#00A17B] text-center mt-10 font-semibold">
@@ -47,12 +50,12 @@ export default function Home() {
               industries.
             </p>
             <p className="mt-6 text-[18px] md:text-[28px]  font-normal">
-              Our team is well-versed in fire safety compliance, regulatory
-              standards, and emerging technologies, allowing us to deliver
-              innovative and effective fire protection solutions. We believe in
-              a proactive approach to fire safety, helping businesses implement
-              preventive measures that minimize fire risks before they become
-              major threats.
+              Our team is consist of 300 to 500 employes which is well-versed in
+              fire safety compliance, regulatory standards, and emerging
+              technologies, allowing us to deliver innovative and effective fire
+              protection solutions. We believe in a proactive approach to fire
+              safety, helping businesses implement preventive measures that
+              minimize fire risks before they become major threats.
             </p>
           </div>
         </div>
@@ -217,10 +220,19 @@ export default function Home() {
                 SYSTEMS PRIVATE LIMITED
               </p>
             </div>
-            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex justify-between md:flex-row flex-col  font-semibold">
+            <div className="md:mt-10 mt-6 text-[18px] md:text-[30px] flex gap-4 flex-col  font-semibold">
+              <p className="font-bold">
+                Red Fire System PVT LTD
+                <br></br>
+                STREET NO 3 BASAI ENCLAVE PART 2<br></br>
+                GURUGRAM HARYANA
+                <br></br>
+                Gurgaon 122001
+                <br></br>
+                Haryana , India
+              </p>
               <p className="">0124-220-0010</p>
               <p className="">Info@redfiresystems.com</p>
-              <p className=""> Employee size 300-500</p>
             </div>
           </div>
         </div>
