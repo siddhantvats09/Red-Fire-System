@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <>
       <div className="">
-        <div className="text-[32px] md:text-[48px] h-[110px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
-          <h1 className="text-center">Welcome to Red Fire Systems Private Limited</h1>
+        <div className="text-[30px] md:text-[48px] h-[110px] lg:h-[120px] flex items-center justify-center font-bold bg-[#00A17B] text-white">
+          <h1 className="text-center px-[20px] ">Welcome to Red Fire Systems Private Limited</h1>
         </div>
         <div className="px-[20px] md:px-[70px] ">
           <h2 className="text-[24px] md:text-[36px] text-[#00A17B] text-center mt-10 font-semibold">
